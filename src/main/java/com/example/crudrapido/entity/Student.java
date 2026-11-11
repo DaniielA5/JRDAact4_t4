@@ -17,7 +17,7 @@ public class Student {
 
     private Long studentId;
 
-    private String firsName;
+    private String firstName;
     
     private String lastName;
 
