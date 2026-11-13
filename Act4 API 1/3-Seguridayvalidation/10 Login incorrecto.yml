@@ -5,12 +5,12 @@ info:
 
 http:
   method: POST
-  url: http://localhost:8080/api/auth/login
+  url: "{{baseUrl}}/api/auth/login"
   body:
     type: json
     data: |-
       {
-        "email": "bruno@correo.com",
+        "email": "usuario.demo@correo.com",
         "password": "clave_incorrecta"
       }
 
