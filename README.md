@@ -15,7 +15,7 @@ API REST pura (sin vistas) construida con **Spring Boot**, **MySQL**, **Spring S
 
 ## Funcionalidades
 
-- Registro y login con token JWT firmado (HS256 / HMAC).
+- Registro y login con token JWT firmado con HMAC-SHA (clave secreta del servidor).
 - Contraseñas guardadas con BCrypt; el password nunca se devuelve en una respuesta.
 - Todos los endpoints del CRUD exigen un token válido (`Authorization: Bearer <token>`).
 - Sin token o con token inválido responde **401** en JSON.
